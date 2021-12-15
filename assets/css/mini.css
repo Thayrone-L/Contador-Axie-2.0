@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #363636;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#card_energias {
+    text-shadow: 3px 3px rgb(161, 74, 3);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(161, 74, 3);
+    font-size: 2em;
+    color: #f7b500;
+}
+
+.list-group-item {
+    width: 40px;
+    height: 40px;
+    background-color: #00000000;
+    color: #fff;
+    padding: 0;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0;
+    display: inline-block;
+    border-radius: 10px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-inicia {
+    background-color: #2A9D8F;
+    color: #fff;
+    left: 7%;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-novo {
+    background-color: #F4A261;
+    color: #fff;
+    right: 7%;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-p2 {
+    background-color: #264653;
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-p1 {
+    background-color: #E76F51;
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bt-1 {
+    left: 10%
+}
+
+.bt-2 {
+    left: 30%
+}
+
+.bt-3 {
+    left: 50%
+}
+
+.bt-4 {
+    left: 70%
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-inicia::after {
+    background-color: #2A9D8F;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
