@@ -249,6 +249,10 @@ svg {
     font-weight: 700;
 }
 
+.btn-empate::after {
+    background-color: #5a5a5a;
+}
+
 .btn-derrota {
     background-color: #E76F51;
     color: #fff;
@@ -256,6 +260,10 @@ svg {
     width: 120px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.btn-derrota::after {
+    background-color: #5a5a5a;
 }
 
 .btn-p2 {
@@ -266,6 +274,10 @@ svg {
     font-weight: 600;
 }
 
+.btn-p2::after {
+    background-color: #264653;
+}
+
 .btn-p1 {
     background-color: #E76F51;
     color: #fff;
@@ -273,6 +285,10 @@ svg {
     font-size: 25px;
     font-weight: 600;
     margin-top: 70px;
+}
+
+.btn-p1::after {
+    background-color: #E76F51;
 }
 
 .bt-1 {
@@ -308,6 +324,14 @@ svg {
     background-color: #2A9D8F;
 }
 
+.btn-novo::after {
+    background-color: #F4A261;
+}
+
+.btn-vitoria::after {
+    background-color: #2A9D8F;
+}
+
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
@@ -327,6 +351,12 @@ svg {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.miniatura-container {
+    position: fixed;
+    top: 10%;
+    left: 50px;
 }
 
 
