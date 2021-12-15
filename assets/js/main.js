@@ -210,5 +210,5 @@ function showcontatos() {
 
 
 function miniatura() {
-    varWindow = window.open('mini.html', 'mini', "width=350, height=450, top=10, right=0, scrollbars=no,resizable=no")
+    varWindow = window.open('mini.html', 'mini', "width=350, height=500, top=10, right=0, scrollbars=no,resizable=no")
 }

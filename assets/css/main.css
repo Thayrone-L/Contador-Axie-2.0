@@ -263,7 +263,7 @@ svg {
 }
 
 .btn-derrota::after {
-    background-color: #5a5a5a;
+    background-color: #E76F51;
 }
 
 .btn-p2 {
@@ -351,12 +351,6 @@ svg {
         opacity: 1;
         transform: translateY(0px);
     }
-}
-
-.miniatura-container {
-    position: fixed;
-    top: 10%;
-    left: 50px;
 }
 
 
