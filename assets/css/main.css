@@ -172,7 +172,7 @@ svg {
 
 .card-contato.show {
     opacity: 1;
-    right: 5;
+    right: 0%;
     z-index: 1;
 }
 
