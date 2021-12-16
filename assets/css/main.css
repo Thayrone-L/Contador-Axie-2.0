@@ -181,7 +181,7 @@ svg {
 .card-contato {
     color: #fff;
     position: fixed;
-    right: 0;
+    right: -50%;
     top: 50%;
     -webkit-transition: .2s ease-out;
     -moz-transition: .2s ease-out;
@@ -191,6 +191,7 @@ svg {
 
 .card-contato.show {
     opacity: 1;
+    right:0;
 }
 
 .btn:link,
