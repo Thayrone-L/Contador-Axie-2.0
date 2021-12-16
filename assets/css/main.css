@@ -338,7 +338,7 @@ svg {
 }
 
 .btn-animated {
-    animation: moveInBottom 2s ease-out;
+    animation: moveInBottom 1s ease-out;
     animation-fill-mode: backwards;
 }
 
