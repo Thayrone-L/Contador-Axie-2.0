@@ -355,7 +355,9 @@ svg {
 
 
 /* mini Button */
-
+.miniatura-container{
+    height:60px;
+}
 a.animated-button:link,
 a.animated-button:visited {
     position: relative;
