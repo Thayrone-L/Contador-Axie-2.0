@@ -200,7 +200,7 @@ svg {
     padding: 15px 20px;
     display: inline-block;
     border-radius: 100px;
-    transition: all .2s;
+    transition: all .1s;
     position: absolute;
 }
 
@@ -317,7 +317,7 @@ svg {
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all .4s;
+    transition: all .2s;
 }
 
 .btn-inicia::after {
