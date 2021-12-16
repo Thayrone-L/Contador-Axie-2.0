@@ -72,6 +72,9 @@ body {
 
 .footer2 {
     height: 100px;
+    width: 100%;
+    margin-left: -12%;
+    margin-top: 12%;
 }
 
 .img_raio {
@@ -88,30 +91,6 @@ body {
     position: relative;
     top: -15%;
     text-shadow: 3px 3px rgb(161, 74, 3);
-}
-
-#container-vitorias {
-    position: absolute;
-    top: 57%;
-    left: 15%;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-#container-empates {
-    position: absolute;
-    top: 57%;
-    left: 45%;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-#container-derrotas {
-    position: absolute;
-    top: 57%;
-    left: 75%;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .placar {
@@ -187,13 +166,14 @@ svg {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
     opacity: 0;
-    z-index:-2;
+    z-index: -2;
+    overflow: hidden;
 }
 
 .card-contato.show {
     opacity: 1;
-    right:0;
-    z-index:1;
+    right: 0;
+    z-index: 1;
 }
 
 .btn:link,
@@ -238,7 +218,6 @@ svg {
 .btn-vitoria {
     background-color: #2A9D8F;
     color: #fff;
-    left: 7%;
     width: 120px;
     font-size: 15px;
     font-weight: 700;
@@ -259,7 +238,6 @@ svg {
 .btn-derrota {
     background-color: #E76F51;
     color: #fff;
-    right: 7%;
     width: 120px;
     font-size: 15px;
     font-weight: 700;
@@ -358,9 +336,11 @@ svg {
 
 
 /* mini Button */
-.miniatura-container{
-    height:40px;
+
+.miniatura-container {
+    height: 40px;
 }
+
 a.animated-button:link,
 a.animated-button:visited {
     position: relative;
