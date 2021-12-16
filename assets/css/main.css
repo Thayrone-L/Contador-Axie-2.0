@@ -187,11 +187,13 @@ svg {
     -moz-transition: .2s ease-out;
     transition: .2s ease-out;
     opacity: 0;
+    z-index:-2;
 }
 
 .card-contato.show {
     opacity: 1;
     right:0;
+    z-index:1;
 }
 
 .btn:link,
